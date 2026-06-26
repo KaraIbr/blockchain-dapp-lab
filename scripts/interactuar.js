@@ -1,6 +1,6 @@
 const { ethers } = require("hardhat");
 
-const DIRECCION_CONTRATO = "0xTU_DIRECCION_AQUI";
+const DIRECCION_CONTRATO = "0x7cD40dB0BC57C9Ed6482e9583F4435C59F39cF07";
 
 async function main() {
   const [usuario] = await ethers.getSigners();
